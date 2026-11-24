@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300">
+  <rect width="480" height="300" fill="#e8f1fb"/>
+  <rect y="230" width="480" height="70" fill="#c9d6e6"/>
+  <!-- estante -->
+  <rect x="30" y="40" width="160" height="190" fill="#0a2a4f"/>
+  <rect x="38" y="100" width="144" height="6" fill="#3b2a1a"/>
+  <rect x="38" y="160" width="144" height="6" fill="#3b2a1a"/>
+  <g>
+    <rect x="44" y="55" width="14" height="45" fill="#1fa463"/><rect x="60" y="62" width="12" height="38" fill="#f2b632"/>
+    <rect x="74" y="50" width="16" height="50" fill="#3d8bd9"/><rect x="92" y="60" width="12" height="40" fill="#e8f1fb"/>
+    <rect x="106" y="54" width="15" height="46" fill="#d9534f"/><rect x="140" y="58" width="14" height="42" fill="#7fe0ae"/>
+    <rect x="156" y="52" width="16" height="48" fill="#0b5cab"/>
+  </g>
+  <g transform="translate(0 60)">
+    <rect x="44" y="52" width="16" height="48" fill="#3d8bd9"/><rect x="62" y="58" width="12" height="42" fill="#e8f1fb"/>
+    <rect x="76" y="55" width="14" height="45" fill="#1fa463"/><rect x="110" y="50" width="16" height="50" fill="#f2b632"/>
+    <rect x="128" y="60" width="12" height="40" fill="#0b5cab"/><rect x="142" y="54" width="15" height="46" fill="#7fe0ae"/>
+  </g>
+  <g transform="translate(0 120)">
+    <rect x="44" y="50" width="15" height="40" fill="#d9534f"/><rect x="61" y="55" width="13" height="35" fill="#0b5cab"/>
+    <rect x="76" y="48" width="16" height="42" fill="#e8f1fb"/><rect x="94" y="52" width="13" height="38" fill="#1fa463"/>
+    <rect x="130" y="50" width="16" height="40" fill="#3d8bd9"/><rect x="148" y="56" width="13" height="34" fill="#f2b632"/>
+  </g>
+  <!-- janela -->
+  <rect x="240" y="40" width="200" height="120" rx="6" fill="#ffffff" stroke="#0b5cab" stroke-width="6"/>
+  <path d="M340 40 v120 M240 100 h200" stroke="#0b5cab" stroke-width="4"/>
+  <circle cx="400" cy="75" r="16" fill="#f2b632" opacity=".8"/>
+  <!-- mesa com livro e planta -->
+  <rect x="230" y="200" width="220" height="12" rx="4" fill="#0a2a4f"/>
+  <rect x="250" y="212" width="10" height="60" fill="#0a2a4f"/>
+  <rect x="420" y="212" width="10" height="60" fill="#0a2a4f"/>
+  <path d="M280 200 q25 -14 50 0 q25 -14 50 0 v-36 q-25 -14 -50 0 q-25 -14 -50 0 z" fill="#ffffff" stroke="#0b5cab" stroke-width="3"/>
+  <path d="M330 200 v-36" stroke="#0b5cab" stroke-width="3"/>
+  <rect x="395" y="168" width="22" height="32" rx="3" fill="#1fa463"/>
+  <path d="M406 168 q-10 -20 0 -34 q10 14 0 34" fill="#137a48"/>
+</svg>

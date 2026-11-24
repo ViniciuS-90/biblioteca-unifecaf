@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Biblioteca Digital UniFECAF: acervo de livros, materiais acadêmicos e conteúdos de apoio à aprendizagem.">
+    <title>Biblioteca Digital UniFECAF</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <a class="pular-conteudo" href="#conteudo">Pular para o conteúdo</a>
+
+    <!-- ===== CABEÇALHO / NAVEGAÇÃO ===== -->
+    <header class="cabecalho">
+        <div class="container cabecalho__interno">
+            <a class="logo" href="#inicio" aria-label="Biblioteca Digital UniFECAF - início">
+                <span class="logo__icone" aria-hidden="true"></span>
+                <span class="logo__texto">Uni<strong>FECAF</strong> <small>Biblioteca Digital</small></span>
+            </a>
+
+            <!-- Menu mobile feito apenas com HTML e CSS (checkbox) -->
+            <input type="checkbox" id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle" class="menu-botao" aria-label="Abrir ou fechar menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <nav class="menu" aria-label="Navegação principal">
+                <ul>
+                    <li><a href="#biblioteca" class="ativo">Biblioteca</a></li>
+                    <li><a href="#livros">Livros</a></li>
+                    <li><a href="#unidades">Unidade</a></li>
+                    <li><a href="#contatos">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="conteudo">
+
+        <!-- ===== BANNER PRINCIPAL ===== -->
+        <section class="banner" id="inicio" aria-labelledby="titulo-banner">
+            <img class="banner__imagem" src="assets/imagens/banner-principal.svg" alt="" width="1600" height="600">
+            <div class="banner__conteudo container">
+                <p class="banner__chamada">Conhecimento ao alcance de um clique</p>
+                <h1 id="titulo-banner">Biblioteca Digital UniFECAF</h1>
+                <p class="banner__texto">Livros, materiais acadêmicos e conteúdos de apoio para a sua jornada de aprendizagem, onde você estiver.</p>
+                <a class="botao botao--destaque" href="#livros">Explorar o acervo</a>
+            </div>
+        </section>
+
+        <!-- ===== SOBRE A NOSSA BIBLIOTECA ===== -->
+        <section class="secao secao--escura" id="biblioteca" aria-labelledby="titulo-sobre">
+            <div class="container">
+                <h2 class="titulo-secao" id="titulo-sobre">Sobre a nossa biblioteca</h2>
+
+                <div class="sobre">
+                    <p class="sobre__texto">
+                        A Biblioteca Digital UniFECAF nasceu para aproximar os estudantes do conhecimento.
+                        Reunimos em um só lugar livros, artigos, apostilas e materiais complementares das
+                        disciplinas, organizados por categoria para que você encontre o que precisa com rapidez.
+                    </p>
+
+                    <figure class="sobre__figura">
+                        <img src="assets/imagens/sobre-biblioteca.svg" alt="Ilustração de estantes com livros coloridos e uma mesa de estudo" width="480" height="300">
+                    </figure>
+
+                    <p class="sobre__texto">
+                        O acesso é gratuito para alunos, professores e colaboradores, 24 horas por dia, em qualquer
+                        dispositivo. Além do acervo, oferecemos orientação para pesquisa, normas ABNT, empréstimo
+                        de exemplares físicos e espaços de estudo na Unidade Sede.
+                    </p>
+                </div>
+
+                <ul class="servicos">
+                    <li class="servico">
+                        <img src="assets/imagens/servico-acervo.svg" alt="" width="240" height="160">
+                        <h3>Acervo digital</h3>
+                    </li>
+                    <li class="servico">
+                        <img src="assets/imagens/servico-estudo.svg" alt="" width="240" height="160">
+                        <h3>Salas de estudo</h3>
+                    </li>
+                    <li class="servico">
+                        <img src="assets/imagens/servico-pesquisa.svg" alt="" width="240" height="160">
+                        <h3>Apoio à pesquisa</h3>
+                    </li>
+                    <li class="servico">
+                        <img src="assets/imagens/servico-emprestimo.svg" alt="" width="240" height="160">
+                        <h3>Empréstimos</h3>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ===== BANNER SECUNDÁRIO ===== -->
+        <section class="faixa" aria-label="Destaque">
+            <img class="faixa__imagem" src="assets/imagens/banner-leitura.svg" alt="" width="1600" height="500">
+            <div class="faixa__conteudo container">
+                <p class="faixa__numero">Todo o acervo físico e muito mais</p>
+                <p class="faixa__texto">os títulos da nossa estante, agora também na tela, para ler online quando quiser</p>
+            </div>
+        </section>
+
+        <!-- ===== NOSSOS LIVROS ===== -->
+        <section class="secao secao--escura" id="livros" aria-labelledby="titulo-livros">
+            <div class="container">
+                <h2 class="titulo-secao" id="titulo-livros">Nossos livros</h2>
+
+                <ul class="livros">
+                    <li>
+                        <article class="livro">
+                            <h3 class="livro__nome">Lógica de Programação</h3>
+                            <img class="livro__capa" src="assets/imagens/livro-programacao.svg" alt="Capa do livro Lógica de Programação" width="200" height="280">
+                            <p class="livro__categoria">Tecnologia</p>
+                            <p class="livro__descricao">Algoritmos, estruturas de decisão e repetição explicados passo a passo, com exercícios práticos.</p>
+                            <a class="botao" href="#livros" aria-label="Saiba mais sobre Lógica de Programação">Saiba mais</a>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="livro">
+                            <h3 class="livro__nome">Design Web Moderno</h3>
+                            <img class="livro__capa" src="assets/imagens/livro-design.svg" alt="Capa do livro Design Web Moderno" width="200" height="280">
+                            <p class="livro__categoria">Design</p>
+                            <p class="livro__descricao">HTML semântico, CSS, responsividade e acessibilidade para criar interfaces de qualidade.</p>
+                            <a class="botao" href="#livros" aria-label="Saiba mais sobre Design Web Moderno">Saiba mais</a>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="livro">
+                            <h3 class="livro__nome">Gestão de Projetos</h3>
+                            <img class="livro__capa" src="assets/imagens/livro-gestao.svg" alt="Capa do livro Gestão de Projetos" width="200" height="280">
+                            <p class="livro__categoria">Administração</p>
+                            <p class="livro__descricao">Planejamento, cronogramas e métodos ágeis aplicados a equipes e organizações reais.</p>
+                            <a class="botao" href="#livros" aria-label="Saiba mais sobre Gestão de Projetos">Saiba mais</a>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="livro">
+                            <h3 class="livro__nome">Banco de Dados</h3>
+                            <img class="livro__capa" src="assets/imagens/livro-dados.svg" alt="Capa do livro Banco de Dados" width="200" height="280">
+                            <p class="livro__categoria">Tecnologia</p>
+                            <p class="livro__descricao">Modelagem relacional, SQL e boas práticas para armazenar e consultar informações.</p>
+                            <a class="botao" href="#livros" aria-label="Saiba mais sobre Banco de Dados">Saiba mais</a>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="livro">
+                            <h3 class="livro__nome">Metodologia Científica</h3>
+                            <img class="livro__capa" src="assets/imagens/livro-metodologia.svg" alt="Capa do livro Metodologia Científica" width="200" height="280">
+                            <p class="livro__categoria">Pesquisa</p>
+                            <p class="livro__descricao">Como planejar, escrever e apresentar trabalhos acadêmicos seguindo as normas ABNT.</p>
+                            <a class="botao" href="#livros" aria-label="Saiba mais sobre Metodologia Científica">Saiba mais</a>
+                        </article>
+                    </li>
+                    <li>
+                        <article class="livro">
+                            <h3 class="livro__nome">Marketing Digital</h3>
+                            <img class="livro__capa" src="assets/imagens/livro-marketing.svg" alt="Capa do livro Marketing Digital" width="200" height="280">
+                            <p class="livro__categoria">Negócios</p>
+                            <p class="livro__descricao">Estratégias de conteúdo, redes sociais e métricas para fortalecer marcas na internet.</p>
+                            <a class="botao" href="#livros" aria-label="Saiba mais sobre Marketing Digital">Saiba mais</a>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ===== AS UNIDADES ===== -->
+        <section class="secao secao--profunda" id="unidades" aria-labelledby="titulo-unidades">
+            <div class="container">
+                <h2 class="titulo-secao" id="titulo-unidades">A unidade</h2>
+
+                <article class="unidade">
+                    <img class="unidade__imagem" src="assets/imagens/unidade-sede.svg" alt="Fachada da Unidade Sede, prédio de vários andares" width="480" height="340">
+                    <div class="unidade__texto">
+                        <h3>Unidade Sede</h3>
+                        <p>A biblioteca física da UniFECAF fica na Unidade Sede. Lá você encontra o acervo impresso, salas de estudo em grupo, cabines para leitura individual e computadores para consulta ao acervo digital.</p>
+                        <address class="unidade__info">
+                            <strong>Endereço:</strong> Av. Vida Nova, 166 - Jardim Maria Rosa, Taboão da Serra - SP, 06764-045
+                        </address>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===== CONTATOS ===== -->
+        <section class="secao secao--clara" id="contatos" aria-labelledby="titulo-contatos">
+            <div class="container contatos">
+                <div class="contatos__texto">
+                    <h2 class="titulo-secao" id="titulo-contatos">Contatos</h2>
+                    <p>Ficou com alguma dúvida sobre o acervo, empréstimos ou acesso à plataforma? Nossa equipe está pronta para ajudar.</p>
+                    <address>
+                        <ul class="contatos__lista">
+                            <li><span class="contatos__rotulo">E-mail</span> <a href="mailto:biblioteca@unifecaf.edu.br">biblioteca@unifecaf.edu.br</a></li>
+                            <li><span class="contatos__rotulo">Telefone</span> <a href="tel:+551142104950">(11) 4210-4950</a></li>
+                            <li><span class="contatos__rotulo">Endereço</span> Av. Vida Nova, 166 - Jardim Maria Rosa, Taboão da Serra - SP, 06764-045</li>
+                            <li><span class="contatos__rotulo">Atendimento</span> segunda a sexta, das 8h às 22h</li>
+                        </ul>
+                    </address>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== RODAPÉ ===== -->
+    <footer class="rodape">
+        <div class="container rodape__interno">
+            <p>&copy; 2026 Biblioteca Digital UniFECAF. Projeto acadêmico da disciplina Design Web.</p>
+            <a href="#inicio">Voltar ao topo ↑</a>
+        </div>
+    </footer>
+
+</body>
+</html>
